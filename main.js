@@ -1,6 +1,4 @@
 
-
-
 function randomPasswordGenerator() {
 
     var symbols = "!@#$%^&*()";
@@ -19,3 +17,9 @@ function randomPasswordGenerator() {
     document.getElementById('password').value = password;
 };
 
+function copy(){
+    
+    document.getElementById('password').value
+}
+
+// make a function that can copy the text inside an input tag
