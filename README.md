@@ -1,6 +1,5 @@
 # Random Password Generator
 
-![Random Password Generator](https://raw.githubusercontent.com/HanzalaSheikh/Random-password-generator/master/preview.png)
 
 ## Description
 
@@ -11,10 +10,6 @@ Random Password Generator is a simple web application that allows you to generat
 - Generate random passwords with a specified length.
 - Choose whether to include uppercase letters, lowercase letters, numbers, and special characters in the generated password.
 - Copy the generated password to your clipboard with a single click.
-
-## Live Demo
-
-You can try out the application by visiting the [Live Demo](https://hanzalasheikh.github.io/Random-password-generator/).
 
 ## How to Use
 
