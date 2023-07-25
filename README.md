@@ -13,7 +13,7 @@ Random Password Generator is a simple web application that allows you to generat
 
 ## How to Use
 
-1. Open the [Live Demo](https://hanzalasheikh.github.io/Random-password-generator/) in your web browser.
+1. Open the project in your web browser.
 2. Set the desired password length using the slider or by manually inputting the value.
 3. Check or uncheck the options to include uppercase letters, lowercase letters, numbers, and special characters.
 4. Click the "Generate Password" button to get a random password that meets your criteria.
@@ -24,4 +24,6 @@ Random Password Generator is a simple web application that allows you to generat
 If you want to run the application locally or contribute to the project, follow these steps:
 
 1. Clone this repository:
+   
+git clone https://github.com/HanzalaSheikh/Random-password-generator.git
 
