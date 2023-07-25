@@ -21,9 +21,9 @@ Random Password Generator is a simple web application that allows you to generat
 
 ## Development
 
-If you want to run the application locally or contribute to the project, follow these steps:
+If you want to run the application locally or contribute to the project
 
-1. Clone this repository:
+Clone this repository:
    
 git clone https://github.com/HanzalaSheikh/Random-password-generator.git
 
