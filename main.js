@@ -18,14 +18,17 @@ function randomPasswordGenerator() {
 };
 
 function copyToClipboard(inputId) {
-  // Get the input element
-  const input = document.getElementById('password');
+  const inputElement = document.getElementById(inputId);
+  const textToCopy = inputElement.value;
 
-  // Select the input content
-  input.select();
-
-  // Copy the selected text to the clipboard
-  document.execCommand('copy');
+  navigator.clipboard.writeText(textToCopy)
+    .then(() => {
+      console.log('Text copied to clipboard!'); // Optional success message
+    })
+    .catch(err => {
+      console.error('Failed to copy:', err); // Optional error handling
+    });
 }
+
 
 // make a function that can copy the text inside an input tag
