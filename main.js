@@ -1,15 +1,15 @@
 
 function randomPasswordGenerator() {
 
-    var symbols = "!@#$%^&*()";
-    var chars = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let symbols = "!@#$%^&*()";
+    let chars = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     
-    var passwordLength = 12;
-    var password = "";
+    let passwordLength = 12;
+    let password = "";
 
-    for(var i = 1; i < passwordLength; i++) {
+    for(let i = 1; i < passwordLength; i++) {
         
-        var randomNumber = Math.floor(Math.random() * chars.length);
+        let randomNumber = Math.floor(Math.random() * chars.length);
         password += chars.substring(randomNumber, randomNumber + 1);
     }
     randomNumber = Math.floor(Math.random() * symbols.length);
@@ -17,9 +17,15 @@ function randomPasswordGenerator() {
     document.getElementById('password').value = password;
 };
 
-function copy(){
-    
-    document.getElementById('password').value
+function copyToClipboard(inputId) {
+  // Get the input element
+  const input = document.getElementById('password');
+
+  // Select the input content
+  input.select();
+
+  // Copy the selected text to the clipboard
+  document.execCommand('copy');
 }
 
 // make a function that can copy the text inside an input tag
